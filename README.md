@@ -1,3 +1,20 @@
+#Sample example of CORS attached
+
+Here we are running two backend servers where **Access-Control-Allow-Origin** is restricted on client and allowed on server. please refer to line no 11 in sever.js. Here I have given my local port, Please change accroding to your needs. 
+
+To run Just 
+1. npm install
+2. check package.json scripts or you can run 
+3. npm run client
+4. npm runs server
+
+Run the index.html from any http server and check. 
+
+
+
+
+
+
 # CORS
 
 A resource makes a cross-origin HTTP request  → when it requests a resource from a different domain than the one which served itself. 
