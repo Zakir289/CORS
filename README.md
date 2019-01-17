@@ -52,7 +52,9 @@ Content-Type: application/xml
 [XML Data]
 
   Note that the main HTTP request header of note here is the Origin: header, which shows that the invocation is coming from content on the the domain http://foo.example.
+  
 HTTP response from the server on domain http://bar.other.  In response, the server sends back an **Access-Control-Allow-Origin: header.**
+
   The use of the Origin: header and of Access-Control-Allow-Origin: show the access control protocol in its simplest use.  In this case, the server responds with a Access-Control-Allow-Origin: * which means that the resource can be accessed by any domain in a cross-site manner.  If the resource owners at http://bar.other wished to restrict access to the resource to be only from http://foo.example, they would send back:
-Access-Control-Allow-Origin: http://foo.example
-Note that now, no domain other than http://foo.example (identified by the ORIGIN: header in the request, as in line 10 above) can access the resource(bar.other)  in a cross-site manner.  The Access-Control-Allow-Origin header should contain the value that was sent in the request's Originheader. 
+**Access-Control-Allow-Origin: http://foo.example**
+Note that now, no domain other than **http://foo.example **(identified by the ORIGIN: header in the request, as in line 10 above) can access the resource(bar.other)  in a cross-site manner.  The Access-Control-Allow-Origin header should contain the value that was sent in the request's Originheader. 
