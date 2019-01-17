@@ -1,6 +1,6 @@
 #Sample example of CORS attached
 
-Here we are running two backend servers where **Access-Control-Allow-Origin** is restricted on client and allowed on server. please refer to line no 11 in sever.js. Here I have given my local port, Please change accroding to your needs. 
+Here we are running two backend servers where **Access-Control-Allow-Origin** is restricted on client and allowed on server. please refer to line no 11 in sever.js. visit http://localhost:8000/ or you can run the index.html from the any http server and allow them in the server.js file
 
 To run Just 
 1. npm install
